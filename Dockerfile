@@ -2,7 +2,7 @@
 FROM node:10
 
 # Specify the directory inside the image in which all commands will run 2
-WORKDIR usr/src/app
+WORKDIR /usr/src/app
 
 # Copy package files and install dependencies 3
 COPY package*.json ./
